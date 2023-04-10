@@ -52,7 +52,7 @@ ax.legend(bbox_to_anchor=(1.04, 0.5), loc='center left')
 
 
 # Save the plot as a PNG file
-plt.savefig("gene_distribution.png", dpi=300)
+plt.savefig("gene_distribution1.png", dpi=300)
 plt.show()
 
 
@@ -109,7 +109,7 @@ ax.set_ylabel("Gene expression")
 ax.legend(bbox_to_anchor=(1.04, 0.5), loc='center left')
 
 # Save the plot as a PNG file
-plt.savefig("gene_distribution.png", dpi=300)
+plt.savefig("gene_distribution2.png", dpi=300)
 plt.show()
 
 
@@ -166,7 +166,7 @@ ax.set_ylabel("Gene expression")
 ax.legend(bbox_to_anchor=(1.04, 0.5), loc='center left')
 
 # Save the plot as a PNG file
-plt.savefig("gene_distribution.png", dpi=300)
+plt.savefig("gene_distribution3.png", dpi=300)
 plt.show()
 #
 #
@@ -225,7 +225,7 @@ fig.suptitle("Gene distribution across chromosomes")
 fig.legend(bbox_to_anchor=(1.04, 0.5), loc='center left')
 
 # Save the plot as a PNG file
-plt.savefig("gene_distribution.png", dpi=300)
+plt.savefig("gene_distribution4.png", dpi=300)
 
 # Show the plot
 plt.show()
@@ -280,6 +280,6 @@ fig.text(0.5, 0.04, "Position on chromosome", ha="center")
 fig.text(0.04, 0.5, "Gene expression", va="center", rotation="vertical")
 
 # Save the plot as a PNG file
-plt.savefig("gene_distribution.png", dpi=300)
+plt.savefig("gene_distribution5.png", dpi=300)
 plt.show()
 
